@@ -3,31 +3,26 @@
   <rule id="200110" level="3">
     <decoded_as>auditd-syscall</decoded_as>
     <description>Audit: SYSCALL Messages grouped.</description>
-    <group>syscall</group>
   </rule>
   <!-- EXECVE -->
   <rule id="200111" level="3">
     <decoded_as>auditd-execve</decoded_as>
     <description>Audit: EXECVE Messages grouped.</description>
-    <group>execve</group>
   </rule>
   <!-- PATH -->
   <rule id="200112" level="3">
     <decoded_as>auditd-path</decoded_as>
     <description>Audit: PATH Messages grouped.</description>
-    <group>path</group>
   </rule>
   <!-- CONFIG_CHANGE -->
   <rule id="200113" level="3">
     <decoded_as>auditd-config_change</decoded_as>
     <description>Detect changes in auditd configuration files.</description>
-    <group>config_change</group>
   </rule>
   <!-- USER_AND_CRED -->
   <rule id="200114" level="3">
     <decoded_as>auditd-user_and_cred</decoded_as>
     <description>Audit: USER_AND_CRED Messages grouped.</description>
-    <group>user_and_cred</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_alter_bash_profile.yml -->
@@ -38,7 +33,6 @@
   <mitre>
     <id>T1546</id>
   </mitre>
-  <group>path</group>
   </rule>
 
   <rule id="200121" level="12">
@@ -48,7 +42,6 @@
   <mitre>
     <id>T1546</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_audio_capture.yml -->
@@ -61,7 +54,6 @@
   <mitre>
     <id>T1123</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_binary_padding.yml -->
@@ -73,7 +65,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200124" level="12">
@@ -84,7 +75,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_bpfdoor_file_accessed.yml -->
@@ -96,7 +86,6 @@
     <id>T1059</id>
     <id>T1106</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_bpfdoor_port_redirect.yml -->
@@ -109,7 +98,6 @@
   <mitre>
     <id>T1562</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200127" level="12">
@@ -119,7 +107,6 @@
   <mitre>
     <id>T1562</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_capabilities_discovery.yml -->
@@ -132,7 +119,6 @@
   <mitre>
     <id>T1548</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_change_file_time_attr.yml -->
@@ -144,7 +130,6 @@
   <mitre>
     <id>T1070</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_chattr_immutable_removal.yml -->
@@ -156,7 +141,6 @@
   <mitre>
     <id>T1222</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_clipboard_collection.yml -->
@@ -170,7 +154,6 @@
   <mitre>
     <id>T1115</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_coinminer.yml -->
@@ -181,7 +164,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200133" level="12">
@@ -191,7 +173,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200134" level="12">
@@ -201,7 +182,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200135" level="12">
@@ -211,7 +191,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200136" level="12">
@@ -221,7 +200,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200137" level="12">
@@ -231,7 +209,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200138" level="12">
@@ -241,7 +218,6 @@
   <mitre>
     <id>T1496</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_cve_2021_3156_sudo_buffer_overflow.yml -->
@@ -256,7 +232,6 @@
   <mitre>
     <id>T1068</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200140" level="12">
@@ -270,7 +245,6 @@
   <mitre>
     <id>T1068</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_data_compressed.yml -->
@@ -281,7 +255,6 @@
   <mitre>
     <id>T1560</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200142" level="10">
@@ -292,7 +265,6 @@
   <mitre>
     <id>T1560</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200143" level="10">
@@ -303,7 +275,6 @@
   <mitre>
     <id>T1560</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_data_exfil_wget.yml -->
@@ -315,7 +286,6 @@
   <mitre>
     <id>T1048</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_dd_delete_file.yml -->
@@ -327,7 +297,6 @@
   <mitre>
     <id>T1485</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_debugfs_usage.yml -->
@@ -338,7 +307,6 @@
   <mitre>
     <id>T1006</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_disable_system_firewall.yml -->
@@ -349,7 +317,6 @@
   <mitre>
     <id>T1562</id>
   </mitre>
-  <group>user_and_cred</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_file_or_folder_permissions.yml -->
@@ -360,7 +327,6 @@
   <mitre>
     <id>T1222</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_find_cred_in_files.yml -->
@@ -371,7 +337,6 @@
   <mitre>
     <id>T1552</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200158" level="12">
@@ -381,7 +346,6 @@
   <mitre>
     <id>T1552</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_hidden_files_directories.yml -->
@@ -393,7 +357,6 @@
   <mitre>
     <id>T1564</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200160" level="12">
@@ -404,7 +367,6 @@
   <mitre>
     <id>T1564</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_hidden_zip_files_steganography.yml -->
@@ -417,7 +379,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_ld_so_preload_mod.yml -->
@@ -428,7 +389,6 @@
   <mitre>
     <id>T1574</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_load_module_insmod.yml -->
@@ -440,7 +400,6 @@
   <mitre>
     <id>T1547</id>
   </mitre>
-  <group>syscall</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_logging_config_change.yml -->
@@ -451,7 +410,6 @@
   <mitre>
     <id>T1562</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_masquerading_crond.yml -->
@@ -465,7 +423,6 @@
   <mitre>
     <id>T1036</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_network_service_scanning.yml -->
@@ -476,7 +433,6 @@
   <mitre>
     <id>T1046</id>
   </mitre>
-  <group>syscall</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_network_sniffing.yml -->
@@ -489,7 +445,6 @@
   <mitre>
     <id>T1040</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_password_policy_discovery.yml -->
@@ -500,7 +455,6 @@
   <mitre>
     <id>T1201</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <rule id="200169" level="12">
@@ -512,7 +466,6 @@
   <mitre>
     <id>T1201</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_pers_systemd_reload.yml -->
@@ -524,7 +477,6 @@
   <mitre>
     <id>T1543</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_screencapture_import.yml -->
@@ -538,7 +490,6 @@
   <mitre>
     <id>T1113</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200172" level="12">
@@ -549,7 +500,6 @@
   <mitre>
     <id>T1113</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_screencaputre_xwd.yml -->
@@ -563,7 +513,6 @@
   <mitre>
     <id>T1113</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <rule id="200174" level="12">
@@ -575,7 +524,6 @@
   <mitre>
     <id>T1113</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_split_file_into_pieces.yml -->
@@ -586,7 +534,6 @@
   <mitre>
     <id>T1030</id>
   </mitre>
-  <group>syscall</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_steghide_embed_steganography.yml -->
@@ -600,7 +547,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_steghide_extract_steganography.yml -->
@@ -614,7 +560,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_susp_c2_commands.yml -->
@@ -622,7 +567,6 @@
   <if_sid>200110</if_sid>
   <field name="audit.key">susp_activity</field>
   <description>Detects suspicious activities as declared by Florian Roth in its 'Best Practice Auditd Configuration'. This includes the detection of the following commands; wget, curl, base64, nc, netcat, ncat, ssh, socat, wireshark, rawshark, rdesktop, nmap.</description>
-  <group>syscall</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_susp_cmds.yml -->
@@ -634,7 +578,6 @@
   <mitre>
     <id>T1059</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_susp_exe_folders.yml -->
@@ -646,7 +589,6 @@
     <id>T1587</id>
     <id>T1584</id>
   </mitre>
-  <group>syscall</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_susp_histfile_operations.yml -->
@@ -657,7 +599,6 @@
   <mitre>
     <id>T1552</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_system_info_discovery.yml -->
@@ -668,7 +609,6 @@
   <mitre>
     <id>T1082</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <rule id="200183" level="12">
@@ -678,7 +618,6 @@
   <mitre>
     <id>T1082</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_systemd_service_creation.yml -->
@@ -690,7 +629,6 @@
   <mitre>
     <id>T1543</id>
   </mitre>
-  <group>path</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_unzip_hidden_zip_files_steganography.yml -->
@@ -702,7 +640,6 @@
   <mitre>
     <id>T1027</id>
   </mitre>
-  <group>execve</group>
   </rule>
   
   <!-- https://github.com/SigmaHQ/sigma/blob/master/rules/linux/auditd/lnx_auditd_user_discovery.yml -->
@@ -713,6 +650,5 @@
   <mitre>
     <id>T1033</id>
   </mitre>
-  <group>execve</group>
   </rule>
 </group>
