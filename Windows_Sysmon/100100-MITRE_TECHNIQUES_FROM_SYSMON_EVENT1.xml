@@ -3142,7 +3142,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>syon_event1,</group>
+		<group>sysmon_event1,</group>
 	</rule>
 	<!--  -->
 	<rule id="100711" level="13">
