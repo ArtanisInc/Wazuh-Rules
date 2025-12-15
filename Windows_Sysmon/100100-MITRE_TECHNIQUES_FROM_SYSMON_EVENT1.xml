@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
 	<rule id="100100" level="3">
 		<if_sid>61603</if_sid>
 		<description>Sysmon - Event 1: Process creation $(win.eventdata.description)</description>
@@ -6,7 +6,7 @@
 			<id>T1546</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100101" level="3">
 		<if_sid>100100</if_sid>
@@ -16,7 +16,7 @@
 			<id>T1546</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100102" level="3">
 		<if_sid>100100</if_sid>
@@ -26,7 +26,7 @@
 			<id>T1546</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100103" level="3">
 		<if_sid>100100</if_sid>
@@ -36,7 +36,7 @@
 			<id>T1197</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100104" level="3">
 		<if_sid>100100</if_sid>
@@ -46,7 +46,7 @@
 			<id>T1548</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100105" level="3">
 		<if_sid>100100</if_sid>
@@ -56,7 +56,7 @@
 			<id>T1027</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100106" level="3">
 		<if_sid>100100</if_sid>
@@ -66,7 +66,7 @@
 			<id>T1204</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100107" level="3">
 		<if_sid>100100</if_sid>
@@ -76,7 +76,7 @@
 			<id>T1054</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100108" level="3">
 		<if_sid>100100</if_sid>
@@ -86,7 +86,7 @@
 			<id>T1518</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100109" level="3">
 		<if_sid>100100</if_sid>
@@ -96,7 +96,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100110" level="3">
 		<if_sid>100100</if_sid>
@@ -106,7 +106,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100111" level="3">
 		<if_sid>100100</if_sid>
@@ -116,7 +116,7 @@
 			<id>T1546</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100112" level="3">
 		<if_sid>100100</if_sid>
@@ -126,7 +126,7 @@
 			<id>T1033</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100113" level="3">
 		<if_sid>100100</if_sid>
@@ -136,7 +136,7 @@
 			<id>T1016</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100114" level="3">
 		<if_sid>100100</if_sid>
@@ -146,7 +146,7 @@
 			<id>T1057</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100115" level="3">
 		<if_sid>100100</if_sid>
@@ -156,7 +156,7 @@
 			<id>T1049</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100116" level="3">
 		<if_sid>100100</if_sid>
@@ -166,7 +166,7 @@
 			<id>T1018</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100117" level="3">
 		<if_sid>100100</if_sid>
@@ -176,7 +176,7 @@
 			<id>T1083</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100118" level="3">
 		<if_sid>100100</if_sid>
@@ -186,7 +186,7 @@
 			<id>T1134</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100119" level="3">
 		<if_sid>100100</if_sid>
@@ -196,7 +196,7 @@
 			<id>T1112</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100120" level="3">
 		<if_sid>100100</if_sid>
@@ -206,7 +206,7 @@
 			<id>T1063</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100121" level="3">
 		<if_sid>100100</if_sid>
@@ -216,7 +216,7 @@
 			<id>T1087</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100122" level="3">
 		<if_sid>100100</if_sid>
@@ -226,7 +226,7 @@
 			<id>T1070</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100123" level="3">
 		<if_sid>100100</if_sid>
@@ -236,7 +236,7 @@
 			<id>T1053</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100124" level="3">
 		<if_sid>100100</if_sid>
@@ -246,7 +246,7 @@
 			<id>T1117</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100125" level="3">
 		<if_sid>100100</if_sid>
@@ -256,7 +256,7 @@
 			<id>T1047</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100126" level="3">
 		<if_sid>100100</if_sid>
@@ -266,7 +266,7 @@
 			<id>T1202</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100127" level="3">
 		<if_sid>100100</if_sid>
@@ -276,7 +276,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100128" level="3">
 		<if_sid>100100</if_sid>
@@ -286,7 +286,7 @@
 			<id>T1086</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100129" level="3">
 		<if_sid>100100</if_sid>
@@ -296,7 +296,7 @@
 			<id>T1073</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100130" level="3">
 		<if_sid>100100</if_sid>
@@ -306,7 +306,7 @@
 			<id>T1500</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100131" level="3">
 		<if_sid>100100</if_sid>
@@ -316,7 +316,7 @@
 			<id>T1216</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100132" level="3">
 		<if_sid>100100</if_sid>
@@ -326,7 +326,7 @@
 			<id>T1170</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100133" level="3">
 		<if_sid>100100</if_sid>
@@ -336,7 +336,7 @@
 			<id>T1158</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100134" level="3">
 		<if_sid>100100</if_sid>
@@ -346,7 +346,7 @@
 			<id>T1053</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100135" level="3">
 		<if_sid>100100</if_sid>
@@ -356,7 +356,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100136" level="3">
 		<if_sid>100100</if_sid>
@@ -366,7 +366,7 @@
 			<id>T1031</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100137" level="3">
 		<if_sid>100100</if_sid>
@@ -376,7 +376,7 @@
 			<id>T1081</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100138" level="3">
 		<if_sid>100100</if_sid>
@@ -386,7 +386,7 @@
 			<id>T1222</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100139" level="3">
 		<if_sid>100100</if_sid>
@@ -396,7 +396,7 @@
 			<id>T1074</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100140" level="3">
 		<if_sid>100100</if_sid>
@@ -406,7 +406,7 @@
 			<id>T1490</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100141" level="3">
 		<if_sid>100100</if_sid>
@@ -416,7 +416,7 @@
 			<id>T1088</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100142" level="3">
 		<if_sid>100100</if_sid>
@@ -426,7 +426,7 @@
 			<id>T1127</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100143" level="3">
 		<if_sid>100100</if_sid>
@@ -436,7 +436,7 @@
 			<id>T1003</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100144" level="3">
 		<if_sid>100100</if_sid>
@@ -446,7 +446,7 @@
 			<id>T1127</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100145" level="3">
 		<if_sid>100100</if_sid>
@@ -456,7 +456,7 @@
 			<id>T1103</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100146" level="3">
 		<if_sid>100100</if_sid>
@@ -466,7 +466,7 @@
 			<id>T1105</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100147" level="3">
 		<if_sid>100100</if_sid>
@@ -476,7 +476,7 @@
 			<id>T1105</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100148" level="3">
 		<if_sid>100100</if_sid>
@@ -486,7 +486,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100149" level="3">
 		<if_sid>100100</if_sid>
@@ -496,7 +496,7 @@
 			<id>T1127</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100150" level="3">
 		<if_sid>100100</if_sid>
@@ -506,7 +506,7 @@
 			<id>T1118</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100151" level="3">
 		<if_sid>100100</if_sid>
@@ -516,7 +516,7 @@
 			<id>T1127</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100152" level="3">
 		<if_sid>100100</if_sid>
@@ -526,7 +526,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100153" level="3">
 		<if_sid>100100</if_sid>
@@ -536,7 +536,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100154" level="3">
 		<if_sid>100100</if_sid>
@@ -546,7 +546,7 @@
 			<id>T1217</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100155" level="3">
 		<if_sid>100100</if_sid>
@@ -556,7 +556,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100156" level="3">
 		<if_sid>100100</if_sid>
@@ -566,7 +566,7 @@
 			<id>T1216</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100157" level="3">
 		<if_sid>100100</if_sid>
@@ -576,7 +576,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100158" level="3">
 		<if_sid>100100</if_sid>
@@ -586,7 +586,7 @@
 			<id>T1086</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100159" level="3">
 		<if_sid>100100</if_sid>
@@ -596,7 +596,7 @@
 			<id>T1053</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100160" level="3">
 		<if_sid>100100</if_sid>
@@ -606,7 +606,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100161" level="3">
 		<if_sid>100100</if_sid>
@@ -616,7 +616,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100162" level="3">
 		<if_sid>100100</if_sid>
@@ -626,7 +626,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100163" level="3">
 		<if_sid>100100</if_sid>
@@ -636,7 +636,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100164" level="3">
 		<if_sid>100100</if_sid>
@@ -646,7 +646,7 @@
 			<id>T1564</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100165" level="3">
 		<if_sid>100100</if_sid>
@@ -656,7 +656,7 @@
 			<id>T1543</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100166" level="3">
 		<if_sid>100100</if_sid>
@@ -666,7 +666,7 @@
 			<id>T1552</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100167" level="3">
 		<if_sid>100100</if_sid>
@@ -676,7 +676,7 @@
 			<id>T1078</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100168" level="3">
 		<if_sid>100100</if_sid>
@@ -686,7 +686,7 @@
 			<id>T1040</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100169" level="3">
 		<if_sid>100100</if_sid>
@@ -696,7 +696,7 @@
 			<id>T1482</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100170" level="3">
 		<if_sid>100100</if_sid>
@@ -706,7 +706,7 @@
 			<id>T1482</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100171" level="3">
 		<if_sid>100100</if_sid>
@@ -716,7 +716,7 @@
 			<id>T1127</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100172" level="3">
 		<if_sid>100100</if_sid>
@@ -726,7 +726,7 @@
 			<id>T1569</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100173" level="3">
 		<if_sid>100100</if_sid>
@@ -736,7 +736,7 @@
 			<id>T1096</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100174" level="3">
 		<if_sid>100100</if_sid>
@@ -746,7 +746,7 @@
 			<id>T1105</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100175" level="3">
 		<if_sid>100100</if_sid>
@@ -756,7 +756,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100176" level="3">
 		<if_sid>100100</if_sid>
@@ -766,7 +766,7 @@
 			<id>T1137</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100177" level="3">
 		<if_sid>100100</if_sid>
@@ -776,7 +776,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100178" level="3">
 		<if_sid>100100</if_sid>
@@ -786,7 +786,7 @@
 			<id>T1007</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100179" level="3">
 		<if_sid>100100</if_sid>
@@ -796,7 +796,7 @@
 			<id>T1089</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100180" level="3">
 		<if_sid>100100</if_sid>
@@ -806,7 +806,7 @@
 			<id>T1005</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100181" level="3">
 		<if_sid>100100</if_sid>
@@ -816,7 +816,7 @@
 			<id>T1098</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100182" level="3">
 		<if_sid>100100</if_sid>
@@ -826,7 +826,7 @@
 			<id>T1012</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100183" level="3">
 		<if_sid>100100</if_sid>
@@ -836,7 +836,7 @@
 			<id>T1036</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100184" level="3">
 		<if_sid>100100</if_sid>
@@ -846,7 +846,7 @@
 			<id>T1036</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100185" level="3">
 		<if_sid>100100</if_sid>
@@ -856,7 +856,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100186" level="3">
 		<if_sid>100100</if_sid>
@@ -866,7 +866,7 @@
 			<id>T1021</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100187" level="3">
 		<if_sid>100100</if_sid>
@@ -876,7 +876,7 @@
 			<id>T1202</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100502" level="13">
 		<if_sid>100100</if_sid>
@@ -889,7 +889,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100503" level="10">
 		<if_sid>100100</if_sid>
@@ -901,7 +901,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100504" level="13">
 		<if_sid>100100</if_sid>
@@ -913,7 +913,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100505" level="13">
 		<if_sid>100100</if_sid>
@@ -927,7 +927,7 @@
 			<id>T1548</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100506" level="10">
 		<if_sid>100105</if_sid>
@@ -947,7 +947,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100508" level="13">
 		<if_sid>100135</if_sid>
@@ -959,7 +959,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100509" level="13">
 		<if_sid>100163</if_sid>
@@ -971,7 +971,7 @@
 			<id>T1218</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100510" level="13">
 		<if_sid>100125</if_sid>
@@ -982,7 +982,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100511" level="13">
 		<if_sid>100112</if_sid>
@@ -993,7 +993,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100512" level="13">
 		<if_sid>100127</if_sid>
@@ -1004,7 +1004,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100513" level="13">
 		<if_sid>100100</if_sid>
@@ -1015,7 +1015,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100514" level="13">
 		<if_sid>100100</if_sid>
@@ -1026,7 +1026,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100515" level="13">
 		<if_sid>100100</if_sid>
@@ -1037,7 +1037,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100516" level="13">
 		<if_sid>100100</if_sid>
@@ -1049,7 +1049,7 @@
 			<id>T1059</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly</group>
+		<group>sysmon_event1,windows_sysmon_event1,sysmon_anomaly,</group>
 	</rule>
 	<rule id="100520" level="15">
 		<if_sid>100100</if_sid>
@@ -1059,7 +1059,7 @@
 			<id>T1134</id>
 		</mitre>
 		<options>no_full_log</options>
-		<group>sysmon_event1,windows_sysmon_event1</group>
+		<group>sysmon_event1,windows_sysmon_event1,</group>
 	</rule>
 	<rule id="100521" level="15">
 		<if_sid>100506</if_sid>

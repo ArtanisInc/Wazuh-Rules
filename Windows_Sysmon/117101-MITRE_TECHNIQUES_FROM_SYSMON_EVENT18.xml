@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117101" level="3">
 <if_sid>61647</if_sid>

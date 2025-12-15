@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
 <!-- Sysmon - Event 10: ProcessAccess by $(win.eventdata.sourceimage) -->
 <rule id="109101" level="3">
 <if_sid>61612</if_sid>

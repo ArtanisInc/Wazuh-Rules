@@ -1,4 +1,4 @@
-<group name="windows">
+<group name="windows,">
   <rule id="200450" level="3">
     <if_sid>60009</if_sid>
     <field name="win.system.providerName">^F-Secure Ultralight SDK$</field>
