@@ -31,5 +31,4 @@
 <options>no_full_log</options>
 <group>sysmon_event_22,</group>
 </rule>
-
 </group>
