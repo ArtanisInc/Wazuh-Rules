@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
   <!-- Sysmon - Event 15: FileCreateStreamHash by $(win.eventdata.image) -->
   <rule id="114101" level="3">
   <if_sid>61617</if_sid>

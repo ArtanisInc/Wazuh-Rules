@@ -1,4 +1,4 @@
-<group name="audit">
+<group name="audit,">
   <!-- SYSCALL -->
   <rule id="200110" level="3">
     <decoded_as>auditd-syscall</decoded_as>

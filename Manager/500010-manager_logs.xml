@@ -1,4 +1,4 @@
-<group name="manager_logs">
+<group name="manager_logs,">
 <rule id="500010" level="3">
   <match>Duplicate name</match>
   <description>Wazuh Auth Duplicate Agent</description>

@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
 <!-- Sysmon - Event 11: FileCreate by $(win.eventdata.image) -->
 <rule id="110101" level="3">
 <if_sid>61613</if_sid>

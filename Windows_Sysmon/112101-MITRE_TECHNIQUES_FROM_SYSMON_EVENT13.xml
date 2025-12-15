@@ -1,4 +1,4 @@
-<group name="windows,sysmon">
+<group name="windows,sysmon,">
 <!-- Sysmon - Event 13: RegistryEvent (Value Set) by $(win.eventdata.image) -->
 <rule id="112101" level="3">
 <if_sid>61615</if_sid>
