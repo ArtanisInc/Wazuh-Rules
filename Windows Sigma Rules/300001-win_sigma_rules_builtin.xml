@@ -10,6 +10,7 @@
 <field name="win.eventdata.AttributeLDAPDisplayName">^ntSecurityDescriptor$</field>
 <field name="win.eventdata.EventID">^5136$</field>
 <field name="win.eventdata.AttributeValue">1131f6ad-9c07-11d1-f79f-00c04fc2dcd2|1131f6aa-9c07-11d1-f79f-00c04fc2dcd2|89e95b76-444d-4c62-991a-0facbeda640c</field>
+<group>sigma_rules</group>
 </rule>
 <rule id="300002" level="15">
 <if_sid>60001</if_sid>
@@ -22,6 +23,7 @@
 <field name="win.eventdata.ObjectServer">^DS$</field>
 <field name="win.eventdata.AccessMask">^0x40000$</field>
 <field name="win.eventdata.ObjectType">19195a5b-6da0-11d0-afd3-00c04fd930c9|domainDNS</field>
+<group>sigma_rules</group>
 </rule>
 <rule id="300003" level="15">
 <if_sid>60001</if_sid>
@@ -34,6 +36,7 @@
 <field name="win.eventdata.AccessMask">^0x100$</field>
 <field name="win.eventdata.Properties">1131f6aa-9c07-11d1-f79f-00c04fc2dcd2|1131f6ad-9c07-11d1-f79f-00c04fc2dcd2|89e95b76-444d-4c62-991a-0facbeda640c</field>
 <field name="win.eventdata.SubjectUserName" negate="yes">\$$|^MSOL_</field>
+<group>sigma_rules</group>
 </rule>
 <rule id="300004" level="15">
 <if_sid>60001</if_sid>
@@ -44,6 +47,7 @@
 <options>no_full_log</options>
 <field name="win.eventdata.EventID">^4698$</field>
 <field name="win.eventdata.TaskName">^SC Scheduled Scan$|^UpdatMachine$</field>
+<group>sigma_rules</group>
 </rule>
 </group>
 <group name="system">
@@ -56,6 +60,7 @@
 <options>no_full_log</options>
 <field name="win.eventdata.EventID">^7045$</field>
 <field name="win.eventdata.TaskName">^SC Scheduled Scan$|^UpdatMachine$</field>
+<group>sigma_rules</group>
 </rule>
 <rule id="300006" level="15">
 <if_sid>60002</if_sid>
@@ -66,6 +71,7 @@
 <options>no_full_log</options>
 <field name="win.eventdata.EventID">^7045$</field>
 <field name="win.eventdata.ServiceName">^WerFaultSvc$</field>
+<group>sigma_rules</group>
 </rule>
 </group>
 <group name="application">
@@ -77,6 +83,7 @@
 </mitre>
 <options>no_full_log</options>
 <field name="win.eventdata.ProviderName">^Microsoft-Windows-Audit-CVE$</field>
+<group>sigma_rules</group>
 </rule>
 </group>
 </group>

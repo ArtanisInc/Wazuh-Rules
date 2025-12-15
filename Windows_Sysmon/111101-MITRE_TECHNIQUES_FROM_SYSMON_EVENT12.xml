@@ -8,6 +8,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111102" level="3">
@@ -18,6 +19,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111103" level="3">
@@ -28,6 +30,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111104" level="3">
@@ -38,6 +41,7 @@
 <id>T1037</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111105" level="3">
@@ -48,6 +52,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111106" level="3">
@@ -58,6 +63,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111107" level="3">
@@ -68,6 +74,7 @@
 <id>T1548</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111108" level="3">
@@ -78,6 +85,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111109" level="3">
@@ -88,6 +96,7 @@
 <id>T1003</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111110" level="3">
@@ -98,6 +107,7 @@
 <id>T1098</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111111" level="3">
@@ -108,6 +118,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111112" level="3">
@@ -118,6 +129,7 @@
 <id>T1562</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111113" level="3">
@@ -128,6 +140,7 @@
 <id>T1015</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111114" level="3">
@@ -138,6 +151,7 @@
 <id>T1562</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111115" level="3">
@@ -148,6 +162,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111116" level="3">
@@ -158,6 +173,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111117" level="3">
@@ -168,6 +184,7 @@
 <id>T1137</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111118" level="3">
@@ -178,6 +195,7 @@
 <id>T1137</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111119" level="3">
@@ -188,6 +206,7 @@
 <id>T1021</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111120" level="3">
@@ -198,6 +217,7 @@
 <id>T1053</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111121" level="3">
@@ -208,6 +228,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111122" level="3">
@@ -218,6 +239,7 @@
 <id>T1543</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111123" level="3">
@@ -228,6 +250,7 @@
 <id>T1553</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111124" level="3">
@@ -238,6 +261,7 @@
 <id>T1569</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111125" level="3">
@@ -248,6 +272,7 @@
 <id>T1105</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111126" level="3">
@@ -258,6 +283,7 @@
 <id>T1033</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111127" level="3">
@@ -268,6 +294,7 @@
 <id>T1057</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111128" level="3">
@@ -278,6 +305,7 @@
 <id>T1089</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111129" level="3">
@@ -288,6 +316,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111130" level="3">
@@ -298,6 +327,7 @@
 <id>T1218</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111131" level="3">
@@ -308,6 +338,7 @@
 <id>T1546</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111132" level="3">
@@ -318,6 +349,7 @@
 <id>T1125</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111133" level="3">
@@ -328,6 +360,7 @@
 <id>T1123</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111134" level="3">
@@ -338,6 +371,7 @@
 <id>T1005</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111135" level="3">
@@ -348,6 +382,7 @@
 <id>T1056</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111136" level="3">
@@ -358,6 +393,7 @@
 <id>T1003</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111137" level="3">
@@ -368,6 +404,7 @@
 <id>T1547</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111138" level="3">
@@ -378,6 +415,7 @@
 <id>T1130</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111139" level="3">
@@ -388,6 +426,7 @@
 <id>T1210</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111140" level="3">
@@ -398,6 +437,7 @@
 <id>T1047</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
   <!-- Lockbit 3.0 -->
 <rule id="111141" level="10">
@@ -410,6 +450,7 @@
       <id>T1490</id>
      </mitre>
     <options>no_full_log</options>
+<group>sysmon_event_12</group>
   </rule>
   
   <rule id="111142" level="10">
@@ -422,6 +463,7 @@
       <id>T1490</id>
     </mitre>
     <options>no_full_log</options>
+<group>sysmon_event_12</group>
   </rule>
   <rule id="111143" level="10">
     <if_group>sysmon_event_12</if_group>
@@ -433,6 +475,7 @@
       <id>T1562.001</id>
     </mitre>
     <options>no_full_log</options>
+<group>sysmon_event_12</group>
   </rule>
   <rule id="111144" level="10" ignore="10">
     <if_group>sysmon_event_12</if_group>
@@ -443,6 +486,7 @@
       <id>T1070.001</id>
     </mitre>
     <options>no_full_log</options>
+<group>sysmon_event_12</group>
   </rule>
 <rule id="111145" level="10">
   <field name="win.eventdata.targetObject" type="pcre2">(?i)\\\\Explorer\\\\FileExts</field>
@@ -460,6 +504,7 @@
     <id>T1133</id>
   </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_12</group>
 </rule>
 <!-- Sysmon - Event 12: RegistryEvent (Object create and delete) by $(win.eventdata.image) -->
 <rule id="111147" level="10">
@@ -470,6 +515,7 @@
     <id>T1546</id>
   </mitre>
   <options>no_full_log</options>
+  <group>sysmon_event_12</group>
 </rule>
 
 <rule id="111148" level="10">
@@ -480,6 +526,7 @@
     <id>T1036</id>
   </mitre>
   <options>no_full_log</options>
+  <group>sysmon_event_12</group>
 </rule>
 
 </group>

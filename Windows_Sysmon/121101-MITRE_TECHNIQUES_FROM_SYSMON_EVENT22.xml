@@ -7,6 +7,7 @@
 <id>T1071</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_22</group>
 </rule>
 <!-- Rule ID 121101 Override if Hostname = AlienVault -->
 <rule id="121102" level="1">
@@ -17,6 +18,7 @@
 <id>T1071</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_22</group>
 </rule>
 <!-- Rule ID 121101 Override if Hostname = Local Hostnames -->
 <rule id="121103" level="1">
@@ -27,6 +29,7 @@
 <id>T1071</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_22</group>
 </rule>
 
 </group>

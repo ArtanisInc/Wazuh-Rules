@@ -8,6 +8,7 @@
 <id>T1021</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117102" level="3">
@@ -18,6 +19,7 @@
 <id>T1055</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117103" level="3">
@@ -28,6 +30,7 @@
 <id>T1021</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117104" level="3">
@@ -38,6 +41,7 @@
 <id>T1059</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117105" level="3">
@@ -48,6 +52,7 @@
 <id>T1049</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 <!-- Sysmon - Event 18: PipeEvent (Pipe Connected) by $(win.eventdata.image) -->
 <rule id="117106" level="3">
@@ -58,5 +63,6 @@
 <id>T1033</id>
 </mitre>
 <options>no_full_log</options>
+<group>sysmon_event_18</group>
 </rule>
 </group>
