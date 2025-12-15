@@ -48,7 +48,7 @@
         <id>T1086</id>
       </mitre>
       <options>no_full_log</options>
-      <group>pci_dss_10.6.1,gpg13_4.12,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3</group>
+      <group>pci_dss_10.6.1,gpg13_4.12,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,</group>
   </rule>
   <rule id="100540" level="14" frequency="$MS_FREQ" timeframe="60">
       <if_matched_sid>100538</if_matched_sid>
@@ -57,7 +57,7 @@
         <id>T1086</id>
       </mitre>
       <options>no_full_log</options>
-      <group>pci_dss_10.6.1,gpg13_4.12,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3</group>
+      <group>pci_dss_10.6.1,gpg13_4.12,gdpr_IV_35.7.d,hipaa_164.312.b,nist_800_53_AU.6,tsc_CC7.2,tsc_CC7.3,</group>
   </rule>
   <rule id="100541" level="3">
     <if_sid>91802</if_sid>

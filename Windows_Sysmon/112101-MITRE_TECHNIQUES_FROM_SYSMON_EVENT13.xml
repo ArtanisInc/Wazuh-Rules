@@ -489,7 +489,7 @@
   <mitre>
     <id>T1556.002</id>
   </mitre>
-  <group>credential_access, registry, windows, sysmon</group>
+  <group>credential_access, registry, windows, sysmon,</group>
 </rule>
 <rule id="112147" level="10">
   <field name="win.eventdata.TargetObject" type="pcre2">(?i)HKLM\\\\System\\\\CurrentControlSet\\\\Control\\\\Lsa\\\\Authentication Packages</field>
@@ -497,7 +497,7 @@
   <mitre>
     <id>T1556.002</id>
   </mitre>
-  <group>credential_access, registry, windows, sysmon</group>
+  <group>credential_access, registry, windows, sysmon,</group>
 </rule>
   <rule id="112148" level="10">
   <if_sid>61615</if_sid>
