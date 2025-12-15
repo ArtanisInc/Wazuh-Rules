@@ -3,6 +3,6 @@
   <match>Duplicate name</match>
   <description>Wazuh Auth Duplicate Agent</description>
   <options>no_full_log</options>
-  <group>wazuh-authd</group>
+  <group>wazuh-authd,</group>
 </rule>
 </group>

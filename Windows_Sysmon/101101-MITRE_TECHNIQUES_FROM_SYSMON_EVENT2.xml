@@ -8,6 +8,6 @@
   <id>T1099</id>
   </mitre>
   <options>no_full_log</options>
-  <group>sysmon_event2</group>
+  <group>sysmon_event2,</group>
   </rule>
 </group>
