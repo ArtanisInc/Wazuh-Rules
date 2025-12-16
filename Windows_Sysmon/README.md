@@ -9,7 +9,8 @@ _We highly recommend Sysmon for your Wazuh deployment as it provides robust amou
 
 
 ## [Sysmon Install Script](https://github.com/socfortress/Wazuh-Rules/blob/main/Windows_Sysmon/sysmon_install.ps1)
-## [Sysmon Config Used](https://github.com/SwiftOnSecurity/sysmon-config)
+## [Sysmon Config Used (noisy)](https://github.com/olafhartong/sysmon-modular)
+## [Sysmon Config (less noisy)](https://github.com/SwiftOnSecurity/sysmon-config)
 
 
 
