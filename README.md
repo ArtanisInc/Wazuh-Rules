@@ -60,3 +60,6 @@ Contributions are greatly appreciated!
 [stars-url]: https://github.com/ArtanisInc/Wazuh-Rules/stargazers
 [license-shield]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: https://github.com/ArtanisInc/Wazuh-Rules/blob/main/LICENSE
+
+## Credits
+*   Thanks to [SOCFortress](https://www.socfortress.co) for the initial work and inspiration.
