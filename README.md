@@ -12,25 +12,25 @@ The objective for this repo is to provide the Wazuh community with rulesets that
 ## Supported Rules and Integrations
 
 ### Windows Security
-*   [Sysmon](tree/main/Windows_Sysmon)
-*   [Powershell](tree/main/Windows%20Powershell)
-*   [Sigma Rules](tree/main/Windows%20Sigma%20Rules)
-*   [Autoruns](tree/main/Windows%20Autoruns)
+*   [Sysmon](Windows_Sysmon)
+*   [Powershell](Windows%20Powershell)
+*   [Sigma Rules](Windows%20Sigma%20Rules)
+*   [Autoruns](Windows%20Autoruns)
 
 ### Linux Security
-*   [Auditd](tree/main/Auditd)
+*   [Auditd](Auditd)
 
 ### Endpoint Protection & Threat Intelligence
-*   [F-Secure](tree/main/F-Secure)
-*   [Yara](tree/main/Yara)
-*   [SCA](tree/main/SCA)
+*   [F-Secure](F-Secure)
+*   [Yara](Yara)
+*   [SCA](SCA)
 
 ### Operations & Management
-*   [Active Response](tree/main/Active_Response)
-*   [Manager Logs](tree/main/Manager)
-*   [Wazuh Inventory](tree/main/Wazuh%20Inventory)
-*   [Exclusion Rules](tree/main/Exclusion%20Rules)
-*   [Sysmon New Events](tree/main/Sysmon%20New%20Events)
+*   [Active Response](Active_Response)
+*   [Manager Logs](Manager)
+*   [Wazuh Inventory](Wazuh%20Inventory)
+*   [Exclusion Rules](Exclusion%20Rules)
+*   [Sysmon New Events](Sysmon%20New%20Events)
 
 ## Getting Started
 
