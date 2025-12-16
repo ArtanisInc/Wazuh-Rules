@@ -1,14 +1,10 @@
 # Advanced Wazuh Detection Rules
 
-> We have committed to contributing to the Open Source community. We hope you find these rulesets helpful and robust as you work to keep your networks secure.
+The objective for this repo is to provide the Wazuh community with rulesets that are more accurate, descriptive, and enriched from various sources and integrations. Wazuh serves as a great EDR agent, but we believe the default rulesets can be strengthened. We are building a repository of strong Wazuh rules for the community to implement and expand upon.
 
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![MIT License][license-shield]][license-url]
-
-## About This Repo
-The objective for this repo is to provide the Wazuh community with rulesets that are more accurate, descriptive, and enriched from various sources and integrations. Wazuh serves as a great EDR agent, but we believe the default rulesets can be strengthened. We are building a repository of strong Wazuh rules for the community to implement and expand upon.
-
 ## Supported Rules and Integrations
 
 ### Windows Security
