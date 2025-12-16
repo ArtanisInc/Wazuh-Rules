@@ -56,7 +56,6 @@ Contributions are greatly appreciated!
 4. Push to the Branch (`git push origin ruleCategory/DetectionRule`)
 5. Open a Pull Request
 
----
 [forks-shield]: https://img.shields.io/github/forks/ArtanisInc/Wazuh-Rules
 [forks-url]: https://github.com/ArtanisInc/Wazuh-Rules/network/members
 [stars-shield]: https://img.shields.io/github/stars/ArtanisInc/Wazuh-Rules
