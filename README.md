@@ -28,7 +28,7 @@ The objective for this repo is to provide the Wazuh community with rulesets that
 *   [Active Response](Active_Response)
 *   [Manager Logs](Manager)
 *   [Wazuh Inventory](Wazuh%20Inventory)
-*   [SCA](SCA)
+*   [Wazuh SCA](Wazuh%20SCA)
 *   [Exclusion Rules](Exclusion%20Rules)
 
 ## Getting Started
