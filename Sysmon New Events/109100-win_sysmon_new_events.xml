@@ -56,6 +56,10 @@
     <group>sysmon_event_21,</group>
   </rule>
 
+  <!-- Event 23: FileDelete - DISABLED
+       Reason: Archives deleted files to C:\Sysmon\ which causes storage issues (can exceed 400GB)
+       Use Event 26 (FileDeleteDetected) instead - provides same metadata without file archiving
+       Only enable Event 23 for IR/forensics in controlled environments
   <rule id="109206" level="3">
     <if_sid>61600</if_sid>
     <field name="win.system.eventID">^23$</field>
@@ -66,7 +70,12 @@
     </mitre>
     <group>sysmon_event_23,</group>
   </rule>
+  -->
 
+  <!-- Event 24: ClipboardChange - DISABLED
+       Reason: Privacy and security concerns - captures passwords, API keys, PII in plaintext
+       Creates large .CLIP files (400GB+ reported), CVE-2022-41120 vulnerability
+       Only enable on specific monitored servers (RDP-exposed) with admin approval
   <rule id="109207" level="3">
     <if_sid>61600</if_sid>
     <field name="win.system.eventID">^24$</field>
@@ -75,6 +84,19 @@
       <id>T1115</id>
     </mitre>
     <group>sysmon_event_24,</group>
+  </rule>
+  -->
+
+  <rule id="109212" level="3">
+    <if_sid>61600</if_sid>
+    <field name="win.system.eventID">^26$</field>
+    <description>Sysmon - Event 26: FileDeleteDetected (File delete logged without archiving) by $(win.eventdata.image)</description>
+    <mitre>
+      <id>T1070</id>
+      <id>T1107</id>
+      <id>T1485</id>
+    </mitre>
+    <group>sysmon_event_26,</group>
   </rule>
 
   <rule id="109208" level="3">
